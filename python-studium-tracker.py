@@ -9,7 +9,7 @@ import update_entry as update
 
 def main():
 
-    database = r"/home/arbeite/studium_tracker/python-studium-tracker/sampledb_aris.db"
+    database = "sampledb_aris.db"
     conn = helper.create_connection(database)
     create.create_tables(conn)
     var = 1

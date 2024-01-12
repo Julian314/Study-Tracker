@@ -3,7 +3,7 @@ from julian_SQL_function import insert_table
 
 def main():
 
-    database = "/home/arbeite/studium_tracker/python-studium-tracker/sampledb_aris.db;foreign keys = true;"
+    database = "sampledb_aris.db;foreign keys = true;"
 
     conn = create_connection(database)
     

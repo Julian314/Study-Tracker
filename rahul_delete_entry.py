@@ -55,6 +55,6 @@ def delete_entry(conn, table, primary_key_data):
     conn.commit()
 
 
-#database = "/home/nautics/Documents/Studium/Python for Engineers/test-db/testdb_study.db"
+#database = "sampledb_aris.db"
 #conn = create_connection(database)
 #delete_entry(conn, 'overview', 'Communication Networks')
